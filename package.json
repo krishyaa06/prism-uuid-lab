@@ -1,0 +1,30 @@
+{
+  "name": "prism-uuid-lab",
+  "version": "1.0.0",
+  "description": "Generate UUID v4/v7, ULID, Nano ID and strong passwords with crypto-grade randomness, and inspect existing IDs.",
+  "scripts": {
+    "test": "node --test",
+    "start": "npx --yes serve ."
+  },
+  "keywords": [
+    "uuid",
+    "uuid-generator",
+    "uuidv7",
+    "ulid",
+    "nanoid",
+    "password-generator",
+    "developer-tools",
+    "vanilla-js",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-uuid-lab.git"
+  },
+  "homepage": "https://krishyaa06.github.io/prism-uuid-lab/",
+  "engines": {
+    "node": ">=18.17"
+  }
+}

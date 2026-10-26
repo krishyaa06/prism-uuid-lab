@@ -1,0 +1,26 @@
+    <section class="grid g2 ids">
+      <div class="card">
+        <div class="card-title"><div class="tabs" id="kind"><button class="on" data-v="uuidv4">UUID v4</button><button data-v="uuidv7">UUID v7</button><button data-v="ulid">ULID</button><button data-v="nanoid">Nano ID</button></div></div>
+        <div class="big" id="one" title="Click to copy"></div>
+        <div class="row opts"><label class="field inline">Count <input type="number" id="count" min="1" max="500" value="10" /></label>
+          <label class="check"><input type="checkbox" id="upper" /> Uppercase</label><label class="check"><input type="checkbox" id="nodash" /> No dashes</label>
+          <label class="field inline" id="nlen" hidden>Length <input type="number" id="size" min="4" max="64" value="21" /></label>
+          <span class="spacer"></span><button class="btn primary" id="gen">Generate</button></div>
+        <pre class="out list" id="list"></pre>
+        <div class="row"><button class="btn small" id="copyAll">Copy all</button><button class="btn small" id="json">Copy as JSON array</button></div>
+      </div>
+      <div class="stack">
+        <div class="card">
+          <div class="card-title"><h2>Password generator</h2><span class="pill" id="strength"></span></div>
+          <div class="big pw" id="pw" title="Click to copy"></div>
+          <label class="field">Length <span class="mono" id="lenV"></span><input type="range" id="len" min="8" max="64" value="20" /></label>
+          <div class="row pw-opts"><label class="check"><input type="checkbox" id="pl" checked /> a-z</label><label class="check"><input type="checkbox" id="pu" checked /> A-Z</label><label class="check"><input type="checkbox" id="pd" checked /> 0-9</label><label class="check"><input type="checkbox" id="ps" checked /> !@#</label><label class="check"><input type="checkbox" id="pa" /> No look-alikes</label></div>
+          <div class="row"><button class="btn" id="regen">Regenerate</button><button class="btn" id="copyPw">Copy</button></div>
+        </div>
+        <div class="card">
+          <div class="card-title"><h2>Inspect an ID</h2></div>
+          <input id="ins" class="code" placeholder="Paste a UUID or ULID" aria-label="ID to inspect" />
+          <div id="insOut" class="ins"></div>
+        </div>
+      </div>
+    </section>

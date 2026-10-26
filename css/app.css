@@ -1,0 +1,6 @@
+.ids{align-items:start}
+.big{padding:18px;border:1px solid var(--line);border-radius:12px;background:#05070d;font:600 clamp(14px,1.8vw,19px) var(--mono);color:var(--accent);word-break:break-all;cursor:pointer;text-align:center;transition:.15s}
+.big:hover{border-color:var(--accent)}.pw{color:var(--text);letter-spacing:.04em}
+.opts{margin:14px 0}.field.inline{flex-direction:row;align-items:center;gap:8px}.field.inline input{width:76px;padding:7px 9px}
+.list{max-height:330px;min-height:200px}.pw-opts{margin:10px 0 14px}
+.ins{margin-top:12px;display:flex;flex-wrap:wrap;gap:6px}
